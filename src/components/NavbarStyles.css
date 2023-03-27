@@ -1,0 +1,48 @@
+nav{
+    display: flex; /* to make the navbar items into a row */
+    align-items: center;
+    justify-content: space-between; /* to put space inbtwn items */
+    background: #500000;
+    padding: 20px 80px; /* generate space around an element */
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+#navbar {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #CECACA;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #CECACA;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#mobile i{
+    color: #ffffff;
+
+}

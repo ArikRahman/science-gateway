@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import {Greeting} from './Greeting';
-function App() {
+import Navbar from './components/Navbar';
+
+
+// here is where we render the entire app (add components to show on web)
+function App() { 
   return (
     <div className="App">
-      <header className="App-header">
-        <Greeting />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/>
     </div>
   );
 }
