@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.df86b28b.js",
+    "main.css": "/static/css/main.c57220ba.css",
+    "main.js": "/static/js/main.1decdd89.js",
     "static/js/787.99c77f48.chunk.js": "/static/js/787.99c77f48.chunk.js",
+    "static/media/TAM-PrimaryMarkB-white.svg": "/static/media/TAM-PrimaryMarkB-white.0264be752199979899ecfee0f9060466.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.df86b28b.js.map": "/static/js/main.df86b28b.js.map",
+    "main.c57220ba.css.map": "/static/css/main.c57220ba.css.map",
+    "main.1decdd89.js.map": "/static/js/main.1decdd89.js.map",
     "787.99c77f48.chunk.js.map": "/static/js/787.99c77f48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.df86b28b.js"
+    "static/css/main.c57220ba.css",
+    "static/js/main.1decdd89.js"
   ]
 }
